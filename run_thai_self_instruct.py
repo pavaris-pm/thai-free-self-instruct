@@ -10,8 +10,9 @@ from csv_generator import format_generated_output, save_csv
 def main():
     self_instruct_query() # query self-instruct dataset
     time.sleep(3)
-    dataset = format_generated_output('D:/SIIT Personal information/thai_self_instruct_output.txt')
-    save_csv('D:/SIIT Personal information/', dataset)
+    # set this to be your own path
+    dataset = format_generated_output('./thai_self_instruct_output.txt')
+    save_csv('./', dataset)
 
 
 if __name__ == "__main__":
