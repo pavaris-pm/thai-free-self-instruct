@@ -41,7 +41,8 @@ def self_instruct_query():
     pyautogui.hotkey('ctrl', 'v')
     time.sleep(3)
     pyautogui.press('enter')
-    time.sleep(20) # this part is for text generation output
+    # modify the time to make it longer in order to let the GPT-based model generate self-instruct dataset
+    time.sleep(40) # this part is for text generation output
 
     # for demo part, we will copy it by hand
     pyautogui.press('winleft')
