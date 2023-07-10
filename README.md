@@ -3,7 +3,7 @@
 <a href="https://github.com/pavaris-pm/thai-free-self-instruct/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/pavaris-pm/thai-free-self-instruct?color=BC4E99"></a>
 <a href="https://github.com/pavaris-pm/thai-free-self-instruct/blob/master/LICENSE"><img src="https://img.shields.io/github/license/pavaris-pm/thai-free-self-instruct?color=BC4E99" alt="License Badge"/></a>
 
-This repository contains a script that enables the retrieval of a self-instruct dataset from ChatGPT website directly without incurring costs by calling an external OpenAPI. While it is not as effective as using an API, this solution provides an alternative method to obtain the dataset. Please note that the script requires some user action to function properly.
+This repository contains a script that enables the retrieval of a self-instruct dataset from ChatGPT website directly without incurring costs by calling an external OpenAI API. While it is not as effective as using an API, this solution provides an alternative method to obtain the dataset. Please note that the script requires some user action to function properly.
 
 ## Utilization of self-instruct dataset in LLM 🥓
 ![self-instruct pipeline](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F88f7c2ca-5592-423d-b551-9794e325bafc_2218x1004.png)
