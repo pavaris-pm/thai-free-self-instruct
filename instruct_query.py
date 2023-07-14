@@ -4,7 +4,7 @@ import pyperclip
 from self_instruct_prompt import get_prompt
 
 
-def self_instruct_query():
+def self_instruct_query() -> None:
     
     # Open the OpenAI website
     prompt = get_prompt()
