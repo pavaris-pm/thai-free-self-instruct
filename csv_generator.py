@@ -2,7 +2,7 @@ import pandas as pd
 from instruct_query import self_instruct_query
 
 # this class will be used to format an output data and return as a csv file
-def save_csv(path: str, dataframe: pd.DataFrame):
+def save_csv(path: str, dataframe: pd.DataFrame) -> None:
     file_path = f"{path}/self_instruct.csv"
     dataframe.to_csv(file_path, index=False)
     print(f"Self-Instruct Dataset Successfully saved to {file_path}")
